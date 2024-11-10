@@ -7,6 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 
+#koi na bhai seekh jaega dheere dheere
 @app.route("/")
 def Hello_world():
     return "<h1>Hello</h1>"
